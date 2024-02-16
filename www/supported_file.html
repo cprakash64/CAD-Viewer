@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supported File Types</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E8ECF1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #2F3E46;
+            background-image: linear-gradient(to top right, #D5E5F6, #F9FAFB);
+        }
+
+        .supported-files {
+            width: 90%;
+            max-width: 960px;
+            background-color: #FFFFFF;
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border: 1px solid #D3DCE6;
+            overflow-y: auto; /* Enable vertical scrolling */
+            max-height: 80vh; /* Set a maximum height */
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #205375;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+
+        ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            gap: 25px;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background-color: #F4F7FA;
+            padding: 18px;
+            border-radius: 15px;
+            text-align: center;
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+            border: 1px solid #E1E5EB;
+        }
+
+        li:hover {
+            background-color: #E1E5EB;
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            ul {
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            }
+            .supported-files {
+                padding: 40px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            ul {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .supported-files {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="supported-files">
+        <h1>Supported File Types</h1>
+        <ul>
+            
+            <li>3DM</li>
+            <li>3DS</li>
+            <li>A</li>
+            <li>ASM (Creo Assembly files)</li>
+            <li>ASM (Solid Edge Assembly files)</li>
+            <li>ASM.d+$</li>
+            <li>BRD</li>
+            <li>CATPART</li>
+            <li>CATPRODUCT</li>
+            <li>CGR</li>
+            <li>COLLABORATION</li>
+            <li>DAE</li>
+            <li>DGN</li>
+            <li>DLV3</li>
+            <li>DWF</li>
+            <li>DWFX</li>
+            <li>DWG</li>
+            <li>DWT</li>
+            <li>DXF</li>
+            <li>EMODE</li>
+            <li>EXP</li>
+            <li>F2D</li>
+            <li>F3D</li>
+            <li>FBX</li>
+            <li>G</li>
+            <li>GBXML</li>
+            <li>GLB</li>
+            <li>GLTF</li>
+            <li>IAM</li>
+            <li>IDW</li>
+            <li>IFC</li>
+            <li>IGE</li>
+            <li>IGES</li>
+            <li>IGS</li>
+            <li>IPT</li>
+            <li>IWM</li>
+            <li>JT</li>
+            <li>MAX</li>
+            <li>MODEL</li>
+            <li>MPF</li>
+            <li>MSR</li>
+            <li>NEU</li>
+            <li>NEU\.\d+$</li>
+            <li>NWC</li>
+            <li>NWD</li>
+            <li>OBJ</li>
+            <li>PAR</li>
+            <li>PDF</li>
+            <li>PMLPRJ</li>
+            <li>PMLPRJZ</li>
+            <li>PRT (Creo part files)</li>
+            <li>PRT\.\d+$</li>
+            <li>PSM</li>
+            <li>PSMODEL</li>
+            <li>RVM</li>
+            <li>RVT</li>
+            <li>SAB</li>
+            <li>SAT</li>
+            <li>SCH</li>
+            <li>SESSION</li>
+            <li>SKP</li>
+            <li>SLDASM</li>
+            <li>SLDDRW</li>
+            <li>SLDPRT</li>
+            <li>STE</li>
+            <li>STEP</li>
+            <li>STL</li>
+            <li>STLA</li>
+            <li>STLB</li>
+            <li>STP</li>
+            <li>STPZ</li>
+            <li>VUE</li>
+            <li>WIRE</li>
+            <li>X_B</li>
+            <li>X_T</li>
+            <li>XAS</li>
+            <li>XPR</li>
+            <li>ZIP</li>
+
+        </ul>
+    </div>
+</body>
+</html>
