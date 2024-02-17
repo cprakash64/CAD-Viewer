@@ -1,7 +1,7 @@
 {
-  "name": "viewer-walkthrough-online.viewer",
+  "name": "cad-viewer",
   "version": "2.0.0",
-  "description": "Code sample for the Forge Viewer API",
+  "description": "Simple CAD file viewer",
   "main": "start.js",
   "scripts": {
     "start": "node start.js"
@@ -14,8 +14,8 @@
     "tutorial",
     "sample"
   ],
-  "author": "Chandra prakash Pandey (www.cpra)",
-  "license": "MIT",
+  "author": "Chandra prakash Pandey (www.cprakash64.github.io)",
+  "license": "Apache-2.0",
   "dependencies": {
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",

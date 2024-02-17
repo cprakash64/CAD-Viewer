@@ -1,0 +1,12 @@
+
+{
+    "apps": [{
+      "name": "CAD-Viewer",
+      "script": "./start.js",
+      "env": {
+        "FORGE_CLIENT_ID": "gYBd41mbCpfsLOuFl3tJUWb7dJI9zMSp",
+        "FORGE_CLIENT_SECRET": "Sh8wuMlZTHF0v9dg"
+      }
+    }]
+  }
+  
